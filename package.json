@@ -4,7 +4,7 @@
     "description"   : "A Node-RED node to read and write from/to a MS SQL Server database",
     "dependencies"  : {
         "mssql": "~3.3.0",
-        "tedious": "~1.14.0",
+        "tedious": "~1.14.0"
     },
     "repository" : {
         "type":"git",

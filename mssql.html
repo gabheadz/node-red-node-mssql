@@ -36,7 +36,7 @@
             password: {type: "password"}
         },
         label: function() {
-            return this.db;
+            return this.database;
         }
     });
 </script>
@@ -61,8 +61,6 @@
     <p><code>msg.payload</code> can contain an array of values to bind to the topic.</p>
     <p>Typically the returned payload will be an array of the result rows.</p>
     <p>If nothing is found for the key then <i>null</i> is returned,</p>
-    <p>The reconnect timeout in milliseconds can be changed by adding a line to <b>settings.js</b>
-    <pre>mysqlReconnectTime: 30000,</pre></p>
 </script>
 
 <script type="text/javascript">
